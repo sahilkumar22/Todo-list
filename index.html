@@ -1,0 +1,51 @@
+
+<html>
+    <head>
+    <!-- meta tag for responsiveness -->
+    <meta name="viewport" content="width=device-width",initial-scale="1">   
+    <!-- fontawesome stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>TODO APP</h1>
+            <div id="take-ip">
+                <input id="task" type="text" placeholder="Type Your Todo List">
+                <button id="add-button">ADD TASK</button>
+            </div>
+            <div id="two">
+                <button id="complete-all"> Complete All Tasks</button>
+                <button  id="clear-complete">Clear All Completed Task</button>
+            </div>
+        </header>
+
+        <main>
+            <!-- this div contains all the task list added to it -->
+            <div>
+                <ul id="tasks-container">
+                  
+
+                </ul>
+            </div>
+
+        </main>
+
+        <footer>
+            <p id="total-count"></p>
+            <div>
+                <button id="all-button">ALL</button>
+                <button id="complete-button">Completed</button>
+                <button id="uncomplete-button">Incomplete</button>
+            </div>
+            
+        </footer>
+    
+    
+    <script src="index.js"> </script>
+    </body>
+
+
+</html>
